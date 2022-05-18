@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Profil"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:id="@+id/Profil_tab"/>
+    <item
+        android:title="Sosmed"
+        android:icon="@drawable/ic_baseline_chat_24"
+        android:id="@+id/sosmed_tab"/>
+    <item
+        android:title="Teman"
+        android:icon="@drawable/ic_baseline_info_24"
+        android:id="@+id/tentang_tab"/>
+
+</menu>

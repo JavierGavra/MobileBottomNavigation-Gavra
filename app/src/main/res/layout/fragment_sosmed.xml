@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sosmed_bg"
+    android:orientation="vertical"
+    tools:context=".sosmedFragment">
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+        <TableRow>
+            <TextView
+                android:text="Sosial media"
+                android:paddingVertical="12dp"
+                android:layout_span="2"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:background="@color/white"/>
+        </TableRow>
+        <TableRow>
+            <View
+                android:layout_height="3dp"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:background="#804343"/>
+        </TableRow>
+
+        <!--Email table-->
+        <TableRow>
+            <TextView
+                android:text="Email"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#804343"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="center"/>
+            <TextView
+                android:text="javiergavra01@gmail.com"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="center"
+                android:background="@color/white"/>
+        </TableRow>
+
+        <!--Instagram Table-->
+        <TableRow>
+            <TextView
+                android:text="Instagram"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#804343"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="center"/>
+            <TextView
+                android:text="\@gavraganteng"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:background="@color/white"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!--Youtube Table-->
+        <TableRow>
+            <TextView
+                android:text="Youtube"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#804343"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="center"/>
+            <TextView
+                android:text="Javier Gavra A."
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:background="@color/white"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!--Whatsapp Table-->
+        <TableRow>
+            <TextView
+                android:text="Whatsapp"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#804343"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="center"/>
+            <TextView
+                android:text="0858 6647 8673"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:background="@color/white"
+                android:gravity="center"/>
+        </TableRow>
+
+        <!--Steam Table-->
+        <TableRow>
+            <TextView
+                android:text="Steam"
+                android:textStyle="bold"
+                android:textColor="@color/white"
+                android:background="#804343"
+                android:paddingRight="20dp"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:gravity="center"/>
+            <TextView
+                android:text="JARGANAYA26"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:background="@color/white"
+                android:gravity="center"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
